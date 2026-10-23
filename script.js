@@ -24,5 +24,5 @@ document.getElementById("contactForm").addEventListener("submit", event => {
   const subject = encodeURIComponent(`ATOM custom clothing enquiry from ${name}`);
   const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nIdea / enquiry:\n${message}`);
   // Replace hello@example.com in index.html and this line with your real business email.
-  window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+  window.location.href = `mailto:vijayasekaran005@gmail.com?subject=${subject}&body=${body}`;
 });
